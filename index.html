@@ -1,62 +1,305 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inovação Tecnológica: Do Renascimento à Atualidade | Língua Portuguesa</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Inovação Tecnológica: Do Renascimento à Atualidade | Língua Portuguesa
+    </title>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
 
     <script src="./src/js/script.js" defer></script>
-</head>
-<body>
+  </head>
+
+  <body>
     <aside id="sidebar">
-        <h2>Índice</h2>
-        <ul>
-            <li><a href="#introducao">Introdução ao Tema</a></li>
-            <li><a href="#inovacoes-renascentistas">Inovações Tecnológicas do Renascimento</a></li>
-            <li><a href="#inovacoes-atuais">Avanços Tecnológicos Contemporâneos</a></li>
-            <li><a href="#comparacao">Comparação Entre Épocas</a></li>
-            <li><a href="#impacto">Impacto Social e Cultural</a></li>
-            <li><a href="#desafios">Desafios e Perspectivas Futuras</a></li>
-            <li><a href="#conclusao">Conclusão</a></li>
-            <li><a href="#referencias">Referências Bibliográficas</a></li>
-        </ul>
+      <h2>Índice</h2>
+      <ul>
+        <li><a href="#introducao">Introdução ao Tema</a></li>
+        <li>
+          <a href="#inovacoes-renascentistas"
+            >Inovações Tecnológicas do Renascimento</a
+          >
+        </li>
+        <li>
+          <a href="#inovacoes-atuais">Avanços Tecnológicos Contemporâneos</a>
+        </li>
+        <li><a href="#comparacao">Comparação Entre Épocas</a></li>
+        <li><a href="#impacto">Impacto Social e Cultural</a></li>
+        <li>
+          <a href="#desafios-perspectivas">Desafios e Perspectivas Futuras</a>
+        </li>
+        <li><a href="#referencias">Referências Bibliográficas</a></li>
+      </ul>
     </aside>
 
     <section>
-        <header>
-            <h1>Inovação Tecnológica: Do Renascimento à Atualidade</h1>
-        </header>
-        <section id="introducao"></section>
-        <section>
-            <div><button onclick="exibirRenascimento()">Renascimento</button></div>
-            <div><button onclick="exibirAtualidade()">Contemporâneos</button></div>
-        </section>
-        <section id="conteudo"></section>
-        <section id="comparacao"></section>
-        <section id="impacto"></section>
-        <section id="desafios"></section>
-        <section id="conclusao">
-            <h2>Conclusão</h2>
-        </section>
-        <section id="referencias">
-            <details>
-                <summary>Referências Bibliográficas</summary>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </details>
-        </section>
-        <footer>
-            <ul>
-                <li>João Vitor Cordeiro da Costa - nº 10</li>
-                <li>Juan Matheus de Oliveira Lopes - nº 11</li>
-            </ul>
-        </footer>
+      <header>
+        <h1>Inovação Tecnológica: Do Renascimento à Atualidade</h1>
+      </header>
+
+      <section id="introducao">
+        <h2>Introdução ao Tema</h2>
+        <h3>Objetivos</h3>
+        <p>
+          O objetivo deste projeto é a produção de um site para comparar as
+          inovações tecnológicas do Renascimento com as inovações atuais, a fim
+          de entender como a tecnologia evoluiu ao longo do tempo.
+          Adicionalmente, observar os desafios das tecnologias modernas e
+          observar os potenciais das inovações futuras.
+        </p>
+
+        <h3>Visão Geral e Contexto Histórico</h3>
+        <p>
+          O Renascimento pode ser entendido como um movimento de renovação
+          cultural de grande repercussão no tempo e no espaço, que começou na
+          Itália e se espalhou por toda a Europa entre os séculos XIV e XVI,
+          sendo decisivo na formação do mundo moderno.
+        </p>
+        <p>
+          O Renascimento não se limitou ao campo das artes, abalando todo o
+          sistema de pensamento dominante na Europa Ocidental até então, com a
+          ciência e a filosofia sendo cruciais para a formação do mundo moderno.
+        </p>
+        <p>
+          <strong>1492: fim da Idade Média.</strong> O período abrangeu dois
+          períodos históricos: Idade Média e Idade Moderna. Ao fim da Idade
+          Média, teve início a expansão das cidades, o surgimento da burguesia,
+          a expansão comercial, o surgimento de avanços científicos e novos
+          pensamentos, o aumento populacional, o aumento do comércio entre
+          Ocidente e Oriente, trocas culturais, laicização do saber (laico:
+          aquilo que não é relacionado à religião) e a troca do pensamento
+          coletivista pelo individualismo.
+        </p>
+        <p>
+          A prensa de Gutenberg permitiu que as ideias fossem transmitidas muito
+          mais facilmente, sem intervenção da Igreja, de maneira mais barata e
+          em grande escala. Novas ideias puderam ser distribuídas e
+          interpretadas de maneira individual.
+        </p>
+      </section>
+
+      <section>
+        <div><button onclick="exibirRenascimento()">Renascimento</button></div>
+        <div><button onclick="exibirAtualidade()">Contemporâneos</button></div>
+      </section>
+
+      <section id="inovacoes-renascentistas">
+        <h2>Inovações Tecnológicas do Renascimento</h2>
+        <p>
+          A ciência se desenvolveu muito no Renascimento, especialmente na
+          matemática, astronomia, física e medicina. O heliocentrismo (a noção
+          de que a Terra e outros planetas orbitam o Sol) foi um marco
+          importante. Antes desse pensamento, predominava o geocentrismo (a
+          Terra no centro do universo).
+        </p>
+
+        <h3>Principais Pensadores e Suas Contribuições</h3>
+        <ul>
+          <li>
+            <strong>Nicolau Copérnico</strong>: Focou principalmente na
+            matemática e conseguiu calcular que a Terra é redonda e gira ao
+            redor do Sol. Temendo a perseguição da Igreja Católica, arquivou
+            suas descobertas, publicando-as pouco antes de morrer.
+          </li>
+          <li>
+            <strong>Galileu Galilei</strong>: Inventou a luneta (primeiro
+            telescópio), possibilitando a observação dos astros. Provou que a
+            superfície da Lua tinha buracos e pedras, desenvolvendo e espalhando
+            suas teorias, o que não agradou à Igreja Católica.
+          </li>
+          <li>
+            <strong>Giordano Bruno</strong>: Provou o heliocentrismo diante do
+            Papa e foi queimado vivo por não renegar suas descobertas.
+          </li>
+        </ul>
+
+        <p>
+          A Igreja Católica, embora financiadora do Renascimento, mantinha uma
+          posição de poder repressor dentro da sociedade.
+        </p>
+
+        <h3>Principais Invenções do Renascimento</h3>
+        <ol>
+          <li>
+            <strong>Impressão moderna</strong>: A invenção da impressão moderna
+            por Gutenberg permitiu a reprodução maciça de textos, democratizando
+            o acesso à informação.
+          </li>
+          <li>
+            <strong>Bússola</strong>: Revolucionou a navegação marítima,
+            permitindo que os navegadores traçassem rotas com maior precisão.
+          </li>
+          <li>
+            <strong>Telescópio</strong>: Aperfeiçoado por Galileu, permitindo
+            observações mais detalhadas dos corpos celestes.
+          </li>
+          <li>
+            <strong>Globo terrestre</strong>: Um dos primeiros modelos
+            tridimensionais da Terra.
+          </li>
+          <li>
+            <strong>Lei da gravitação universal</strong>: Formulada por Isaac
+            Newton, descrevendo a força de atração entre objetos devido à sua
+            massa.
+          </li>
+          <li>
+            <strong>Atlas da anatomia</strong>: Criado por Andreas Vesalius,
+            revolucionando o estudo da anatomia humana.
+          </li>
+          <li>
+            <strong>Estudos de probabilidade</strong>: Desenvolvidos por Blaise
+            Pascal e Pierre Fermat, impactando a matemática e a ciência.
+          </li>
+          <li>
+            <strong>Caravela</strong>: Inventada pelos portugueses, crucial para
+            as grandes navegações e a colonização da América.
+          </li>
+        </ol>
+
+        <h3>
+          Impactos das Invenções e Descobertas Renascentistas na Sociedade
+        </h3>
+        <p>
+          As invenções e descobertas do Renascimento tiveram um impacto profundo
+          e duradouro na sociedade. O desenvolvimento da imprensa moderna
+          democratizou o acesso à informação e possibilitou a disseminação de
+          novas ideias e conhecimentos. A bússola e o telescópio revolucionaram
+          a navegação e a astronomia, permitindo uma maior exploração do mundo e
+          do universo.
+        </p>
+        <p>
+          Além disso, figuras notáveis do Renascimento, como Leonardo da Vinci,
+          Michelangelo, Botticelli, Rafael e Donatello, fizeram contribuições
+          significativas nas artes e ciências. Leonardo da Vinci, conhecido por
+          suas invenções futuristas e estudos anatômicos, revirava túmulos para
+          estudar o corpo humano, contribuindo para o avanço da medicina e da
+          arte. Michelangelo, com suas esculturas e pinturas icônicas,
+          Botticelli, com suas obras cheias de simbolismo, Rafael, com sua
+          harmonia e perfeição técnica, e Donatello, com suas esculturas
+          realistas, todos deixaram um legado duradouro que continua a
+          influenciar a arte e a cultura até hoje.
+        </p>
+      </section>
+
+      <section id="inovacoes-atuais">
+        <h2>Avanços Tecnológicos Contemporâneos</h2>
+        <h3>Tecnologias Modernas e Suas Aplicações</h3>
+        <p>
+          Nos tempos modernos, testemunhamos avanços tecnológicos
+          impressionantes em diversas áreas, como inteligência artificial,
+          biotecnologia, computação quântica e exploração espacial, todas áreas
+          referentes a computação. Tecnologias como smartphones, internet,
+          veículos elétricos e impressão 3D transformaram a maneira como
+          vivemos, trabalhamos e nos comunicamos.
+        </p>
+
+        <h3>Inovações Recentes e Seus Usos Práticos</h3>
+        <ul>
+          <li>
+            <strong>Inteligência Artificial (IA)</strong>: Utilizada em diversas
+            indústrias, desde saúde até finanças, a IA está revolucionando a
+            automação e a análise de dados.
+          </li>
+          <li>
+            <strong>Biotecnologia</strong>: Avanços como a edição genética
+            (CRISPR) oferecem potencial para curar doenças genéticas e melhorar
+            a agricultura.
+          </li>
+          <li>
+            <strong>Computação Quântica</strong>: Promete resolver problemas
+            complexos que estão além das capacidades dos computadores clássicos.
+          </li>
+          <li>
+            <strong>Exploração Espacial</strong>: Empresas como SpaceX e Blue
+            Origin estão tornando os voos espaciais mais acessíveis e explorando
+            a possibilidade de colonizar outros planetas.
+          </li>
+        </ul>
+      </section>
+
+      <section id="comparacao">
+        <h2>Comparação Entre Épocas</h2>
+        <h3>Semelhanças e Diferenças nas Inovações Tecnológicas</h3>
+        <p>
+          Embora as tecnologias específicas tenham mudado drasticamente, tanto o
+          Renascimento quanto a era moderna compartilham um espírito de inovação
+          e descoberta. No Renascimento, as inovações eram frequentemente
+          impulsionadas pela observação da natureza e pela experimentação. Na
+          era moderna, a tecnologia avança a partir de grandes colaborações
+          (quebrando o individualismo renascentista) e do poder computacional.
+        </p>
+        <p>
+          Além disso, as tecnologias modernas apenas foram possíveis devido aos
+          pensadores renascentistas que consolidaram o cálculo, a física, a
+          medicina, a biologia, o universo, etc. As bases científicas lançadas
+          por estudiosos como Copérnico, Galileu e Newton estabeleceram os
+          princípios fundamentais que ainda guiam a ciência e a tecnologia hoje.
+          Por exemplo, os estudos de Copérnico sobre o heliocentrismo foram
+          cruciais para o desenvolvimento da astronomia moderna. Galileu, com
+          suas observações telescópicas, abriu caminho para a astrofísica,
+          enquanto os princípios de Newton são fundamentais para a física
+          clássica.
+        </p>
+      </section>
+
+      <section id="desafios-perspectivas">
+        <h2>Desafios e Perspectivas Futuras</h2>
+        <h3>Obstáculos e Desafios das Tecnologias Modernas</h3>
+        <p>
+          Os avanços tecnológicos modernos enfrentam desafios como a necessidade
+          de regulamentação, questões éticas e o impacto ambiental. O equilíbrio
+          entre inovação e responsabilidade é crucial para o desenvolvimento
+          sustentável. Assim como no Renascimento reviravam túmulos para estudo
+          anatômico, hoje enfrentamos questões éticas na pesquisa e no uso de
+          tecnologias, como no caso das células-tronco. O uso de células-tronco
+          tem o potencial de curar muitas doenças, mas também levanta dilemas
+          éticos sobre a origem dessas células e os limites da intervenção
+          humana na natureza.
+        </p>
+        <p>
+          A regulamentação das novas tecnologias é um desafio constante.
+          Garantir que os avanços sejam usados de forma ética e segura, ao mesmo
+          tempo que se promove a inovação, é uma tarefa complexa. Questões
+          relacionadas à privacidade, segurança de dados, desigualdade de acesso
+          e impacto ambiental são apenas algumas das áreas que também necessitam
+          de atenção cuidadosa.
+        </p>
+        <h3>Oportunidades e Potenciais Futuras da Tecnologia</h3>
+        <p>
+          Por fim, esperamos que a tecnologia continue rapidamente evoluindo
+          para que solucione problemas climáticos, sociais, doenças, etc.
+        </p>
+        <p>
+          <strong
+            >O ritmo da inovação tecnológica continuará a moldar nosso
+            futuro</strong
+          >, trazendo tanto desafios quanto oportunidades. A colaboração
+          internacional, a ética na ciência e tecnologia, e o compromisso com a
+          sustentabilidade serão fundamentais para aproveitar ao máximo esses
+          avanços.
+        </p>
+      </section>
+
+      <section id="referencias">
+        <h2>Referências Bibliográficas</h2>
+        <ul>
+          <li>Nome do Autor. Título do Livro. Editora, Ano.</li>
+          <li>
+            Nome do Autor. Título do Artigo. Nome da Revista, Volume, Edição,
+            Ano.
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <ul>
+          <li>João Vitor Cordeiro da Costa - nº 10</li>
+          <li>Juan Matheus de Oliveira Lopes - nº 11</li>
+        </ul>
+      </footer>
     </section>
-</body>
+  </body>
 </html>
