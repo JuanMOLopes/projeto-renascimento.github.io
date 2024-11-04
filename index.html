@@ -14,36 +14,39 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
 
   <script src="./src/js/script.js" defer></script>
 </head>
 
 <body>
-  <section id="cima">
-    <aside id="sidebar">
+  <div class="container">
+    <aside id="sidebar" onclick="exibirSidebarBarra()">
       <h2>Índice</h2>
       <ul>
         <li><a href="#introducao">Introdução ao Tema</a></li>
         <li>
-          <a href="#inovacoes-renascentistas">Inovações Tecnológicas do Renascimento</a>
+          <a href="#botoes">Inovações Tecnológicas do Renascimento</a>
         </li>
         <li>
-          <a href="#inovacoes-atuais">Avanços Tecnológicos Contemporâneos</a>
+          <a href="#botoes">Avanços Tecnológicos Contemporâneos</a>
         </li>
         <li><a href="#comparacao">Comparação Entre Épocas</a></li>
-        <li><a href="#impacto">Impacto Social e Cultural</a></li>
         <li>
           <a href="#desafios-perspectivas">Desafios e Perspectivas Futuras</a>
         </li>
         <li><a href="#referencias">Referências Bibliográficas</a></li>
       </ul>
     </aside>
+    <button id="toggleButton" onclick="exibirSidebar()">></button>
+  </div>
 
-      <header>
-        <h1>Inovação Tecnológica: Do Renascimento à Atualidade</h1>
-      </header>
-  </section>
+  <div class="tudo" onclick="removerSidebar()">
+    <header>
+      <h1>Inovação Tecnológica: Do Renascimento à Atualidade</h1>
+    </header>
 
     <section id="introducao">
       <h2>Introdução ao Tema</h2>
@@ -70,7 +73,7 @@
         ciência e a filosofia sendo cruciais para a formação do mundo moderno.
       </p>
       <p>
-        <strong>1492: fim da Idade Média.</strong> O período abrangeu dois
+        O período abrangeu dois
         períodos históricos: Idade Média e Idade Moderna. Ao fim da Idade
         Média, teve início a expansão das cidades, o surgimento da burguesia,
         a expansão comercial, o surgimento de avanços científicos e novos
@@ -87,22 +90,41 @@
       </p>
 
       <h3>Características do Renascimento</h3>
-  <ul>
-    <li><strong>Classicismo</strong>: O Renascimento buscava o renascimento da antiguidade greco-romana, valorizando o realismo, escultura, arquitetura e filosofia, reestudando Aristóteles, Sócrates e Platão, acreditando que esses ideais de estética representavam a perfeição.</li>
-    <li><strong>Antropocentrismo</strong>: Valorização do homem/indivíduo como o centro de tudo, em oposição ao teocentrismo (Deus no centro de tudo). O ser humano é visto como uma criatura inteligente, capaz de criar, não porque Deus o fez assim, mas porque possui essa capacidade.</li>
-    <li><strong>Hedonismo</strong>: Valorização do prazer e busca desse prazer ainda em vida. O corpo é visto como fonte de beleza e prazer, em contraste com o pensamento medieval, que via o corpo como fonte de perdição e pecado.</li>
-    <li><strong>Humanismo e laicização do saber</strong>: Movimento intelectual que buscava estudar novamente os grandes pensadores da antiguidade, questionando a humanidade e reformando o currículo das universidades, abordando mais áreas de estudo como história, literatura e artes.</li>
-    <li><strong>Racionalismo</strong>: Valorização da razão, da experimentação e do empirismo (fazer ciência a partir de testes).</li>
-    <li><strong>Naturalismo</strong>: Representação da natureza e do ser humano em esculturas e pinturas de maneira realista, valorizando expressões, veias, rugas e músculos.</li>
-    <li><strong>Universalismo</strong>: Estudo de várias áreas do conhecimento. Homens do Renascimento, como Michelangelo, eram versáteis e buscavam conhecimentos em várias áreas.</li>
-    <li><strong>Individualismo</strong>: Valorização do humano como ser único. Obras de arte começaram a ser assinadas, diferentemente de períodos anteriores.</li>
-    <li><strong>Nas pinturas</strong>: Surgiram elementos como perspectiva, profundidade, harmonia e simetria, tornando-as iguais à realidade e perfeitas, em contraste com a pintura medieval, onde os personagens estavam em um único plano.</li>
-  </ul>
+      <ul>
+        <li><strong>Classicismo</strong>: O Renascimento buscava o renascimento da antiguidade greco-romana, valorizando
+          o
+          realismo, escultura, arquitetura e filosofia, reestudando Aristóteles, Sócrates e Platão, acreditando que
+          esses
+          ideais de estética representavam a perfeição.</li>
+        <li><strong>Antropocentrismo</strong>: Valorização do homem/indivíduo como o centro de tudo, em oposição ao
+          teocentrismo (Deus no centro de tudo). O ser humano é visto como uma criatura inteligente, capaz de criar, não
+          porque Deus o fez assim, mas porque possui essa capacidade.</li>
+        <li><strong>Hedonismo</strong>: Valorização do prazer e busca desse prazer ainda em vida. O corpo é visto como
+          fonte de beleza e prazer, em contraste com o pensamento medieval, que via o corpo como fonte de perdição e
+          pecado.</li>
+        <li><strong>Humanismo e laicização do saber</strong>: Movimento intelectual que buscava estudar novamente os
+          grandes pensadores da antiguidade, questionando a humanidade e reformando o currículo das universidades,
+          abordando mais áreas de estudo como história, literatura e artes.</li>
+        <li><strong>Racionalismo</strong>: Valorização da razão, da experimentação e do empirismo (fazer ciência a
+          partir
+          de testes).</li>
+        <li><strong>Naturalismo</strong>: Representação da natureza e do ser humano em esculturas e pinturas de maneira
+          realista, valorizando expressões, veias, rugas e músculos.</li>
+        <li><strong>Universalismo</strong>: Estudo de várias áreas do conhecimento. Homens do Renascimento, como
+          Michelangelo, eram versáteis e buscavam conhecimentos em várias áreas.</li>
+        <li><strong>Individualismo</strong>: Valorização do humano como ser único. Obras de arte começaram a ser
+          assinadas, diferentemente de períodos anteriores.</li>
+        <li><strong>Nas pinturas</strong>: Surgiram elementos como perspectiva, profundidade, harmonia e simetria,
+          tornando-as iguais à realidade e perfeitas, em contraste com a pintura medieval, onde os personagens estavam
+          em
+          um único plano.</li>
+        <img src="./src/img/santa-ceia.png" alt="A Ultima Ceia">
+      </ul>
     </section>
 
     <section id="botoes">
       <div><button onclick="exibirRenascimento()">Renascimento</button></div>
-      <div><button onclick="exibirAtualidade()">Contemporâneos</button></div>
+      <div><button onclick="exibirAtualidade()">Atualidade</button></div>
     </section>
 
     <section id="inovacoes-renascentistas">
@@ -116,7 +138,7 @@
         Terra no centro do universo).
       </p>
 
-       <br>
+      <br>
       <h3>Principais Pensadores e Suas Contribuições</h3>
       <ul>
         <li>
@@ -150,35 +172,43 @@
           por Gutenberg permitiu a reprodução maciça de textos, democratizando
           o acesso à informação.
         </li>
+        <img src="./src/img/prensa.png" alt="Prensa de Gutenberg">
         <li>
           <strong>Bússola</strong>: Revolucionou a navegação marítima,
           permitindo que os navegadores traçassem rotas com maior precisão.
         </li>
+        <img src="./src/img/bussola.png" alt="Bussola" width="40%">
         <li>
           <strong>Telescópio</strong>: Aperfeiçoado por Galileu, permitindo
           observações mais detalhadas dos corpos celestes.
         </li>
+        <img src="./src/img/luneta.png" alt="Luneta">
         <li>
           <strong>Globo terrestre</strong>: Um dos primeiros modelos
           tridimensionais da Terra.
         </li>
+        <img src="./src/img/globo-terrestre.png" alt="Globo Terrestre">
         <li>
           <strong>Lei da gravitação universal</strong>: Formulada por Isaac
           Newton, descrevendo a força de atração entre objetos devido à sua
           massa.
         </li>
+        <img src="./src/img/gravidade.png" alt="Lei da Gravitacao Universal">
         <li>
           <strong>Atlas da anatomia</strong>: Criado por Andreas Vesalius,
           revolucionando o estudo da anatomia humana.
         </li>
+        <img src="./src/img/atlas-anatomia.png" alt="Atlas da Anatomia">
         <li>
           <strong>Estudos de probabilidade</strong>: Desenvolvidos por Blaise
           Pascal e Pierre Fermat, impactando a matemática e a ciência.
         </li>
+        <img src="./src/img/probabilidade.png" alt="Probabilidade">
         <li>
           <strong>Caravela</strong>: Inventada pelos portugueses, crucial para
           as grandes navegações e a colonização da América.
         </li>
+        <img src="./src/img/caravela.png" alt="Caravela">
       </ol>
 
       <br>
@@ -228,20 +258,25 @@
           indústrias, desde saúde até finanças, a IA está revolucionando a
           automação e a análise de dados.
         </li>
+        <img src="./src/img/ia.png" alt="IA" width="40%">
         <li>
           <strong>Biotecnologia</strong>: Avanços como a edição genética
           (CRISPR) oferecem potencial para curar doenças genéticas e melhorar
           a agricultura.
         </li>
+        <img src="./src/img/crispr.png" alt="CRISPR" width="40%">
         <li>
           <strong>Computação Quântica</strong>: Promete resolver problemas
           complexos que estão além das capacidades dos computadores clássicos.
         </li>
+        <img src="./src/img/computacao-quantica.png" alt="Computação Quantica">
         <li>
           <strong>Exploração Espacial</strong>: Empresas como SpaceX e Blue
           Origin estão tornando os voos espaciais mais acessíveis e explorando
           a possibilidade de colonizar outros planetas.
         </li>
+        <img src="./src/img/spacex.png" alt="SpaceX">
+        <img src="./src/img/blue-origin.png" alt="Blue Origin">
       </ul>
     </section>
 
@@ -312,13 +347,31 @@
     <section id="referencias">
       <h2>Referências Bibliográficas</h2>
       <ul>
-        <li>Nome do Autor. Título do Livro. Editora, Ano.</li>
-        <li>
-          Nome do Autor. Título do Artigo. Nome da Revista, Volume, Edição,
-          Ano.
-        </li>
+        <li>RIGONATTO, Mariana. Mundo Educação. Renascimento. Disponível em: <a
+            href="https://mundoeducacao.uol.com.br/literatura/renascimento.htm">https://mundoeducacao.uol.com.br/literatura/renascimento.htm</a>.
+          Acesso em: 20 out, 2024.</li>
+        <li>RIOSO, Miste. Brasil Escola. Dúvida - Renascimento invenções e inventores. Disponível em: <a
+            href="https://brasilescola.uol.com.br/tire-duvidas/renascimento-invencoes-e-inventores/314225.html">https://brasilescola.uol.com.br/tire-duvidas/renascimento-invencoes-e-inventores/314225.html</a>.
+          Acesso em: 27 out, 2024.</li>
+        <li>ALADIM, Débora. Youtube. RENASCIMENTO: RESUMO DE HISTÓRIA (Débora Aladim). Disponível em: <a
+            href="https://www.youtube.com/watch?v=fxqxH5A3Ok8">https://www.youtube.com/watch?v=fxqxH5A3Ok8</a>. Acesso
+          em: 31 out, 2024.</li>
+        <li>SuperInteressante. Relembre 20 invenções e avanços tecnológicos da Renascença. Disponível em: <a
+            href="https://super.abril.com.br/galeria/relembre-20-invencoes-e-avancos-tecnologicos-da-renascenca">https://super.abril.com.br/galeria/relembre-20-invencoes-e-avancos-tecnologicos-da-renascenca</a>.
+          Acesso em: 31 out, 2024.</li>
+        <li>MONTINI, Alessandra. Olhar Digital. Conheça cinco tendências de tecnologia para 2024. Disponível em: <a
+            href="https://olhardigital.com.br/2023/12/24/colunistas/conheca-cinco-tendencias-de-tecnologia-para-2024/">https://olhardigital.com.br/2023/12/24/colunistas/conheca-cinco-tendencias-de-tecnologia-para-2024/</a>.
+          Acesso em: 01 nov, 2024.</li>
+        <li>CropLife Brasil. CRISPR: A surpreendente técnica de edição genética. Disponível em: <a
+            href="https://croplifebrasil.org/conceitos/crispr-a-surpreendente-tecnica-de-edicao-genetica/#:~:text=CRISPR%20%C3%A9%20uma%20das%20tecnicas,desafios%20que%20acometem%20as%20lavouras.">https://croplifebrasil.org/conceitos/crispr-a-surpreendente-tecnica-de-edicao-genetica/#:~:text=CRISPR%20%C3%A9%20uma%20das%20tecnicas,desafios%20que%20acometem%20as%20lavouras.</a>.
+          Acesso em: 01 nov, 2024.</li>
+        <li>G1 Globo. SpaceX, Blue Origin e Virgin Galactic: como está a corrida de bilionários para explorar o espaço.
+          Disponível em: <a
+            href="https://g1.globo.com/inovacao/noticia/2024/06/08/spacex-blue-origin-e-virgin-galactic-como-esta-a-corrida-de-bilionarios-para-explorar-o-espaco.ghtml">https://g1.globo.com/inovacao/noticia/2024/06/08/spacex-blue-origin-e-virgin-galactic-como-esta-a-corrida-de-bilionarios-para-explorar-o-espaco.ghtml</a>.
+          Acesso em: 01 nov, 2024.</li>
       </ul>
     </section>
+
     <br>
 
     <footer>
@@ -329,12 +382,15 @@
       </ul>
       <br>
 
-      <p>2º ano do Ensino Médio</p>
-      <p>Vinhedo</p>
-      <p>2024</p>
+      <section id="informacoes">
+        <p>2º ano do Ensino Médio</p>
+        <p>Vinhedo</p>
+        <p>2024</p>
+      </section>
 
     </footer>
-  </section>
+    </section>
+  </div>
 </body>
 
 </html>

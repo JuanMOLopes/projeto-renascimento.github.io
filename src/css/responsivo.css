@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  #sidebar {
+    max-width: 100%;
+    border-right: none;
+    border-bottom: 2px solid #d7b263;
+    margin-bottom: 20px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  section h3 {
+    font-size: 1.3rem;
+  }
+
+  #botoes button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
