@@ -216,3 +216,21 @@ ul img {
   border-radius: 10%;
   color: #fff;
 }
+
+.audio-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+audio {
+  margin-right: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
